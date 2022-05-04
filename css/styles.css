@@ -14,6 +14,7 @@ html, body {
 :root {
     --color-dark-blue: #2C3E50;
     --color-white: #FFF;
+    --color-green: #1ABC9C;
 }
 
 .nav-container {
@@ -54,5 +55,28 @@ html, body {
 
 .menu-items li {
     margin: 10px;
-    font-size: 14px;s
+    font-size: 14px;
+}
+
+.profile-container {
+    height: 378px;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img img {
+    height: 150px;
+}
+
+.profile-title {
+    font-size: 2rem;
+    margin-top: 35px;
+}
+
+.profile-description {
+    font-size: 1rem;
 }
