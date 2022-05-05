@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+/* ELEMENTS */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,6 +18,16 @@ html, body {
     --color-white: #FFF;
     --color-green: #1ABC9C;
 }
+
+footer {
+    height: 120px;
+    background-color: var(--color-dark-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CLASSES, IDS */
 
 .nav-container {
     background-color: var(--color-dark-blue);
@@ -108,4 +120,15 @@ html, body {
     border-radius: 10px;
     cursor: pointer;
     margin: 20px;
+}
+.footer-title {
+    color: var(--color-white);
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.social-container img {
+    width: 32px;
+    height: 32px;
+    margin: 10px;
 }
